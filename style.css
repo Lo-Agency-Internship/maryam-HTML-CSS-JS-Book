@@ -1,0 +1,17 @@
+div.question{
+  float: left;
+  width:50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-left: 0em;
+      margin: 0;
+      border: 1px solid #333;
+      box-shadow: 7px 7px 4px #444;
+}
+
+div.answer {
+width: 700px;
+background: pink;
+float: right;
+}
