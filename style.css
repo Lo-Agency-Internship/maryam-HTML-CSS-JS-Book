@@ -1,18 +1,31 @@
-body{
-    background-color: green;
+* body{
+  font-family:Arial, Helvetica, sans-serif   
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.container .answer{
+padding-left: 30px;
+line-height: 1;
+background-color: greenyellow;
+}
+.container .answer h2{
+  font-size: smaller;
+}
+.container .qustion{
+font-size: 15px;
+height: 100%;
+line-height: 1;
+background-color: aquamarine;
+}
+.container ol{
+  width: 100px;
+}
+.container ol li a{
+  height: 5px;
+  color: black;
+  font-size: 15px;
 }
 
-div.qustion{
-  float: left;
-  width:600px;
-  height:1050px;
-  background: yellow;
-  text-align: left;
-}
-
-div.answer {
-display: inline-block;
-float: right;
-width:700px;
-background-color:pink;
-}
